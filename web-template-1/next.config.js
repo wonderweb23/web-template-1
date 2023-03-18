@@ -1,6 +1,10 @@
-/** @type {import('next').NextConfig} */
+// @ts-check
+
+/**
+ * @type {import('next').NextConfig}
+ **/
 const nextConfig = {
-  reactStrictMode: true,
+  basePath: '/web-template-1',
 }
 
 module.exports = nextConfig
